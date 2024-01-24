@@ -1,10 +1,7 @@
-$--red-color:#FF0000;
-$--green-color:#00FF00;
-
 button {
-    color: $--red-color; 
+    color: #FF0000; 
     &:hover {
-        color: $--green-color; 
+        color: #00FF00; 
     }
 }
     
