@@ -1,0 +1,21 @@
+$--mg-l: 10px;
+$--mg-r: 10px;
+
+@mixin margin-left($--mg-l) {
+    margin-left: $--mg-l; 
+}
+@mixin margin-right($--mg-r) {
+    margin-right: $--mg-r; 
+}
+
+
+body {
+    margin-left: $--mg-l;
+    margin-right: $--mg-r; 
+}
+div {
+    margin-left: $--mg-l + 5;
+    margin-right: $--mg-r + 5; 
+}
+  
+  

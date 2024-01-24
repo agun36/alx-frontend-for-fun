@@ -1,0 +1,10 @@
+$--pd: 0px;
+$--mg: 0px;
+
+body {
+    margin: $--mg;
+    padding: $--pd; 
+    p {
+        margin: $--mg + 10; 
+    }
+}
